@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D370C6CC132F441000A97E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D370C6CB132F441000A97E17 /* UIKit.framework */; };
+		D370C6CE132F441000A97E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D370C6CD132F441000A97E17 /* Foundation.framework */; };
+		D370C6D0132F441000A97E17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D370C6CF132F441000A97E17 /* CoreGraphics.framework */; };
+		D370C6D6132F441000A97E17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D370C6D4132F441000A97E17 /* InfoPlist.strings */; };
+		D370C6D9132F441000A97E17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D370C6D8132F441000A97E17 /* main.m */; };
+		D370C6DC132F441000A97E17 /* Hospitals_of_KazakhstanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D370C6DB132F441000A97E17 /* Hospitals_of_KazakhstanAppDelegate.m */; };
+		D370C6DF132F441000A97E17 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D370C6DD132F441000A97E17 /* MainWindow.xib */; };
+		D370C6E2132F441000A97E17 /* Hospitals_of_KazakhstanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D370C6E1132F441000A97E17 /* Hospitals_of_KazakhstanViewController.m */; };
+		D370C6E5132F441000A97E17 /* Hospitals_of_KazakhstanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D370C6E3132F441000A97E17 /* Hospitals_of_KazakhstanViewController.xib */; };
+		D370C6EC132F441000A97E17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D370C6CB132F441000A97E17 /* UIKit.framework */; };
+		D370C6ED132F441000A97E17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D370C6CD132F441000A97E17 /* Foundation.framework */; };
+		D370C6EE132F441000A97E17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D370C6CF132F441000A97E17 /* CoreGraphics.framework */; };
+		D370C6F6132F441000A97E17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D370C6F4132F441000A97E17 /* InfoPlist.strings */; };
+		D370C6F9132F441000A97E17 /* Hospitals_of_KazakhstanTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D370C6F8132F441000A97E17 /* Hospitals_of_KazakhstanTests.h */; };
+		D370C6FB132F441000A97E17 /* Hospitals_of_KazakhstanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D370C6FA132F441000A97E17 /* Hospitals_of_KazakhstanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D370C6EF132F441000A97E17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D370C6BE132F440F00A97E17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D370C6C6132F440F00A97E17;
+			remoteInfo = "Hospitals of Kazakhstan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D370C6C7132F440F00A97E17 /* Hospitals of Kazakhstan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hospitals of Kazakhstan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D370C6CB132F441000A97E17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D370C6CD132F441000A97E17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D370C6CF132F441000A97E17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D370C6D3132F441000A97E17 /* Hospitals of Kazakhstan-Info.plist */ = {isa = PBXFileReference; path = "Hospitals of Kazakhstan-Info.plist"; sourceTree = "<group>"; };
+		D370C6D5132F441000A97E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D370C6D7132F441000A97E17 /* Hospitals of Kazakhstan-Prefix.pch */ = {isa = PBXFileReference; path = "Hospitals of Kazakhstan-Prefix.pch"; sourceTree = "<group>"; };
+		D370C6D8132F441000A97E17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D370C6DA132F441000A97E17 /* Hospitals_of_KazakhstanAppDelegate.h */ = {isa = PBXFileReference; path = Hospitals_of_KazakhstanAppDelegate.h; sourceTree = "<group>"; };
+		D370C6DB132F441000A97E17 /* Hospitals_of_KazakhstanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hospitals_of_KazakhstanAppDelegate.m; sourceTree = "<group>"; };
+		D370C6DE132F441000A97E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D370C6E0132F441000A97E17 /* Hospitals_of_KazakhstanViewController.h */ = {isa = PBXFileReference; path = Hospitals_of_KazakhstanViewController.h; sourceTree = "<group>"; };
+		D370C6E1132F441000A97E17 /* Hospitals_of_KazakhstanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hospitals_of_KazakhstanViewController.m; sourceTree = "<group>"; };
+		D370C6E4132F441000A97E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Hospitals_of_KazakhstanViewController.xib; sourceTree = "<group>"; };
+		D370C6EB132F441000A97E17 /* Hospitals of KazakhstanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hospitals of KazakhstanTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D370C6F3132F441000A97E17 /* Hospitals of KazakhstanTests-Info.plist */ = {isa = PBXFileReference; path = "Hospitals of KazakhstanTests-Info.plist"; sourceTree = "<group>"; };
+		D370C6F5132F441000A97E17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D370C6F7132F441000A97E17 /* Hospitals of KazakhstanTests-Prefix.pch */ = {isa = PBXFileReference; path = "Hospitals of KazakhstanTests-Prefix.pch"; sourceTree = "<group>"; };
+		D370C6F8132F441000A97E17 /* Hospitals_of_KazakhstanTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hospitals_of_KazakhstanTests.h; sourceTree = "<group>"; };
+		D370C6FA132F441000A97E17 /* Hospitals_of_KazakhstanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hospitals_of_KazakhstanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D370C6C4132F440F00A97E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D370C6CC132F441000A97E17 /* UIKit.framework in Frameworks */,
+				D370C6CE132F441000A97E17 /* Foundation.framework in Frameworks */,
+				D370C6D0132F441000A97E17 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D370C6E7132F441000A97E17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D370C6EC132F441000A97E17 /* UIKit.framework in Frameworks */,
+				D370C6ED132F441000A97E17 /* Foundation.framework in Frameworks */,
+				D370C6EE132F441000A97E17 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D370C6BC132F440F00A97E17 = {
+			isa = PBXGroup;
+			children = (
+				D370C6D1132F441000A97E17 /* Hospitals of Kazakhstan */,
+				D370C6F1132F441000A97E17 /* Hospitals of KazakhstanTests */,
+				D370C6CA132F440F00A97E17 /* Frameworks */,
+				D370C6C8132F440F00A97E17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D370C6C8132F440F00A97E17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D370C6C7132F440F00A97E17 /* Hospitals of Kazakhstan.app */,
+				D370C6EB132F441000A97E17 /* Hospitals of KazakhstanTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D370C6CA132F440F00A97E17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D370C6CB132F441000A97E17 /* UIKit.framework */,
+				D370C6CD132F441000A97E17 /* Foundation.framework */,
+				D370C6CF132F441000A97E17 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D370C6D1132F441000A97E17 /* Hospitals of Kazakhstan */ = {
+			isa = PBXGroup;
+			children = (
+				D370C6DA132F441000A97E17 /* Hospitals_of_KazakhstanAppDelegate.h */,
+				D370C6DB132F441000A97E17 /* Hospitals_of_KazakhstanAppDelegate.m */,
+				D370C6DD132F441000A97E17 /* MainWindow.xib */,
+				D370C6E0132F441000A97E17 /* Hospitals_of_KazakhstanViewController.h */,
+				D370C6E1132F441000A97E17 /* Hospitals_of_KazakhstanViewController.m */,
+				D370C6E3132F441000A97E17 /* Hospitals_of_KazakhstanViewController.xib */,
+				D370C6D2132F441000A97E17 /* Supporting Files */,
+			);
+			path = "Hospitals of Kazakhstan";
+			sourceTree = "<group>";
+		};
+		D370C6D2132F441000A97E17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D370C6D3132F441000A97E17 /* Hospitals of Kazakhstan-Info.plist */,
+				D370C6D4132F441000A97E17 /* InfoPlist.strings */,
+				D370C6D7132F441000A97E17 /* Hospitals of Kazakhstan-Prefix.pch */,
+				D370C6D8132F441000A97E17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D370C6F1132F441000A97E17 /* Hospitals of KazakhstanTests */ = {
+			isa = PBXGroup;
+			children = (
+				D370C6F8132F441000A97E17 /* Hospitals_of_KazakhstanTests.h */,
+				D370C6FA132F441000A97E17 /* Hospitals_of_KazakhstanTests.m */,
+				D370C6F2132F441000A97E17 /* Supporting Files */,
+			);
+			path = "Hospitals of KazakhstanTests";
+			sourceTree = "<group>";
+		};
+		D370C6F2132F441000A97E17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D370C6F3132F441000A97E17 /* Hospitals of KazakhstanTests-Info.plist */,
+				D370C6F4132F441000A97E17 /* InfoPlist.strings */,
+				D370C6F7132F441000A97E17 /* Hospitals of KazakhstanTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D370C6C6132F440F00A97E17 /* Hospitals of Kazakhstan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D370C6FE132F441000A97E17 /* Build configuration list for PBXNativeTarget "Hospitals of Kazakhstan" */;
+			buildPhases = (
+				D370C6C3132F440F00A97E17 /* Sources */,
+				D370C6C4132F440F00A97E17 /* Frameworks */,
+				D370C6C5132F440F00A97E17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hospitals of Kazakhstan";
+			productName = "Hospitals of Kazakhstan";
+			productReference = D370C6C7132F440F00A97E17 /* Hospitals of Kazakhstan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D370C6EA132F441000A97E17 /* Hospitals of KazakhstanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D370C701132F441000A97E17 /* Build configuration list for PBXNativeTarget "Hospitals of KazakhstanTests" */;
+			buildPhases = (
+				D370C6E6132F441000A97E17 /* Sources */,
+				D370C6E7132F441000A97E17 /* Frameworks */,
+				D370C6E8132F441000A97E17 /* Resources */,
+				D370C6E9132F441000A97E17 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D370C6F0132F441000A97E17 /* PBXTargetDependency */,
+			);
+			name = "Hospitals of KazakhstanTests";
+			productName = "Hospitals of KazakhstanTests";
+			productReference = D370C6EB132F441000A97E17 /* Hospitals of KazakhstanTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D370C6BE132F440F00A97E17 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D370C6C1132F440F00A97E17 /* Build configuration list for PBXProject "Hospitals of Kazakhstan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D370C6BC132F440F00A97E17;
+			productRefGroup = D370C6C8132F440F00A97E17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D370C6C6132F440F00A97E17 /* Hospitals of Kazakhstan */,
+				D370C6EA132F441000A97E17 /* Hospitals of KazakhstanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D370C6C5132F440F00A97E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D370C6D6132F441000A97E17 /* InfoPlist.strings in Resources */,
+				D370C6DF132F441000A97E17 /* MainWindow.xib in Resources */,
+				D370C6E5132F441000A97E17 /* Hospitals_of_KazakhstanViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D370C6E8132F441000A97E17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D370C6F6132F441000A97E17 /* InfoPlist.strings in Resources */,
+				D370C6F9132F441000A97E17 /* Hospitals_of_KazakhstanTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D370C6E9132F441000A97E17 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D370C6C3132F440F00A97E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D370C6D9132F441000A97E17 /* main.m in Sources */,
+				D370C6DC132F441000A97E17 /* Hospitals_of_KazakhstanAppDelegate.m in Sources */,
+				D370C6E2132F441000A97E17 /* Hospitals_of_KazakhstanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D370C6E6132F441000A97E17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D370C6FB132F441000A97E17 /* Hospitals_of_KazakhstanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D370C6F0132F441000A97E17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D370C6C6132F440F00A97E17 /* Hospitals of Kazakhstan */;
+			targetProxy = D370C6EF132F441000A97E17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D370C6D4132F441000A97E17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D370C6D5132F441000A97E17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D370C6DD132F441000A97E17 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D370C6DE132F441000A97E17 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D370C6E3132F441000A97E17 /* Hospitals_of_KazakhstanViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D370C6E4132F441000A97E17 /* en */,
+			);
+			name = Hospitals_of_KazakhstanViewController.xib;
+			sourceTree = "<group>";
+		};
+		D370C6F4132F441000A97E17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D370C6F5132F441000A97E17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D370C6FC132F441000A97E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D370C6FD132F441000A97E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D370C6FF132F441000A97E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hospitals of Kazakhstan/Hospitals of Kazakhstan-Prefix.pch";
+				INFOPLIST_FILE = "Hospitals of Kazakhstan/Hospitals of Kazakhstan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D370C700132F441000A97E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hospitals of Kazakhstan/Hospitals of Kazakhstan-Prefix.pch";
+				INFOPLIST_FILE = "Hospitals of Kazakhstan/Hospitals of Kazakhstan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D370C702132F441000A97E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hospitals of Kazakhstan.app/Hospitals of Kazakhstan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hospitals of KazakhstanTests/Hospitals of KazakhstanTests-Prefix.pch";
+				INFOPLIST_FILE = "Hospitals of KazakhstanTests/Hospitals of KazakhstanTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D370C703132F441000A97E17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hospitals of Kazakhstan.app/Hospitals of Kazakhstan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hospitals of KazakhstanTests/Hospitals of KazakhstanTests-Prefix.pch";
+				INFOPLIST_FILE = "Hospitals of KazakhstanTests/Hospitals of KazakhstanTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D370C6C1132F440F00A97E17 /* Build configuration list for PBXProject "Hospitals of Kazakhstan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D370C6FC132F441000A97E17 /* Debug */,
+				D370C6FD132F441000A97E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D370C6FE132F441000A97E17 /* Build configuration list for PBXNativeTarget "Hospitals of Kazakhstan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D370C6FF132F441000A97E17 /* Debug */,
+				D370C700132F441000A97E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D370C701132F441000A97E17 /* Build configuration list for PBXNativeTarget "Hospitals of KazakhstanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D370C702132F441000A97E17 /* Debug */,
+				D370C703132F441000A97E17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D370C6BE132F440F00A97E17 /* Project object */;
+}
